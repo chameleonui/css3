@@ -1,4 +1,3 @@
-
 # CSS3
 
 CSS3 library for chameleonui
@@ -12,10 +11,15 @@ Install with [component](https://github.com/component/component):
 ## API
 
 ```css
+// style.styl
 .class-name
     display: block
     border-radius: 20px
     box-shadow: 0 2px 2px black, 0 0 1px 30px rgba(0,0,0,.1)
+```
+
+will yelds:
+```css
 ```
 
 ### Contains
