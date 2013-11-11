@@ -11,15 +11,30 @@ Install with [component](https://github.com/component/component):
 ## API
 
 ```css
-// style.styl
+/* style.styl */
 .class-name
     display: block
     border-radius: 20px
     box-shadow: 0 2px 2px black, 0 0 1px 30px rgba(0,0,0,.1)
 ```
 
-will yelds:
+will compile into:
+
 ```css
+/* style.css */
+.class-name {
+    display: block;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 2px 2px #000, 0 0 1px 30px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 2px 2px #000, 0 0 1px 30px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 2px 2px #000, 0 0 1px 30px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 2px 2px #000, 0 0 1px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px #000, 0 0 1px 30px rgba(0,0,0,0.1);
+}
 ```
 
 ### Contains
