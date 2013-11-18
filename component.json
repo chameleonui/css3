@@ -1,8 +1,8 @@
 {
   "name": "css3",
   "repo": "chameleonui/css3",
-  "description": "Stylus CSS3 library for ChameleonUi",
-  "version": "1.0.0",
+  "description": "Stylus CSS3 library for ChameleonUI",
+  "version": "1.0.1",
   "keywords": [],
   "dependencies": {
     "chameleonui/utils": "*"
@@ -16,6 +16,7 @@
     "border-image.styl",
     "border-radius.styl",
     "box-shadow.styl",
+    "box-sizing.styl",
     "filter.styl",
     "font-smoothing.styl",
     "opacity.styl",

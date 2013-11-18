@@ -45,6 +45,7 @@ will compile into:
 * border-image
 * border-radius
 * box-shadow
+* box-sizing
 * filter
 * font-smoothing
 * opacity
