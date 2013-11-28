@@ -1,3 +1,7 @@
+### v1.0.3
+
+* Fixed previously fixed bug in opacity mixin
+
 ### v1.0.2
 
 * Fixed bug in opacity mixin

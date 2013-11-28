@@ -1,5 +1,7 @@
 
 opacity()
-    -ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity="+(arguments * 100)+")")
-    filter: unquote("alpha(opacity="+(arguments * 100)+")")
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + (arguments * 100) + ")"
+    filter\ unquote('aplha(opacity=' + (arguments * 100) + ')')
+    -moz-opacity: arguments
+    -khtml-opacity: arguments
     opacity: arguments
