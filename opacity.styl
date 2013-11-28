@@ -1,5 +1,5 @@
 
 opacity()
+    -ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity="+(arguments * 100)+")")
+    filter: unquote("alpha(opacity="+(arguments * 100)+")")
     opacity: arguments
-    filter: "alpha(opacity="+(arguments * 100)+")"
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+(arguments * 100)+")"

@@ -1,3 +1,7 @@
+### v1.0.2
+
+* Fixed bug in opacity mixin
+
 ### v1.0.1
 
 * Added box-sizing
