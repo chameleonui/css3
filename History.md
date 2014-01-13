@@ -1,3 +1,8 @@
+### v1.0.4
+
+* fixed opacity mixin for ie7, ie8; now this fix should really work everywhere
+* fixed transform mixin
+
 ### v1.0.3
 
 * Fixed previously fixed bug in opacity mixin
