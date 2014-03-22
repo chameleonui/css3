@@ -2,7 +2,7 @@
   "name": "css3",
   "repo": "chameleonui/css3",
   "description": "Stylus CSS3 library for ChameleonUI",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "keywords": [],
   "dependencies": {
     "chameleonui/utils": "*"

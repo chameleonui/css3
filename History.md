@@ -1,3 +1,9 @@
+## v1.0
+
+### v1.0.5
+
+* fixed tranform-style mixin
+
 ### v1.0.4
 
 * fixed opacity mixin for ie7, ie8; now this fix should really work everywhere
