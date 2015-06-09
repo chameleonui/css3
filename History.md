@@ -1,5 +1,12 @@
 ## v1.0
 
+### v1.1.0
+
+* stylus files moved to subfolder
+* updated dependency version
+* updated `vendors` to `_vendors` mixin name and its arguments
+* removed unnecesary mixins
+
 ### v1.0.5
 
 * fixed tranform-style mixin
