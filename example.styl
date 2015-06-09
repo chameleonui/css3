@@ -4,16 +4,29 @@
 
 // local css3 library import
 @import "stylus/animation"
-@import "stylus/opacity"
+@import "stylus/backface-visibility"
+@import "stylus/background-size"
+@import "stylus/border-image"
 @import "stylus/border-radius"
 @import "stylus/box-shadow"
-@import "stylus/transition"
+@import "stylus/box-sizing"
+@import "stylus/filter"
+@import "stylus/font-smoothing"
+@import "stylus/opacity"
+@import "stylus/perspective"
+@import "stylus/text-overflow"
 @import "stylus/transform"
+@import "stylus/transition"
 
 
 // test cases
+
+@keyframes foo
+    to
+        background-color: #DD6031
+
 .animation
-    animation: name 5s
+    animation: foo 5s
 
 .opacity
     opacity: .5
