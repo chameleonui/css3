@@ -1,19 +1,31 @@
 // dependency import
-@import "components/chameleonui-utils/vendors"
-
+@import "components/chameleonui-utils/stylus/vendors"
 
 // local css3 library import
-@import "animation"
-@import "opacity"
-@import "border-radius"
-@import "box-shadow"
-@import "transition"
-@import "transform"
+@import "stylus/animation"
+@import "stylus/backface-visibility"
+@import "stylus/background-size"
+@import "stylus/border-image"
+@import "stylus/border-radius"
+@import "stylus/box-shadow"
+@import "stylus/box-sizing"
+@import "stylus/filter"
+@import "stylus/font-smoothing"
+@import "stylus/opacity"
+@import "stylus/perspective"
+@import "stylus/text-overflow"
+@import "stylus/transform"
+@import "stylus/transition"
 
 
 // test cases
+
+@keyframes foo
+    to
+        background-color: #DD6031
+
 .animation
-    animation: name 5s
+    animation: foo 5s
 
 .opacity
     opacity: .5

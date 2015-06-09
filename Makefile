@@ -2,11 +2,11 @@
 build: components animation.styl
 	@component build --dev
 
-example: example.styl
-	@stylus example.styl
-
 components: component.json
 	@component install --dev
+
+example: components example.styl
+	@stylus example.styl
 
 clean:
 	rm -fr build components template.js

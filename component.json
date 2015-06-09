@@ -2,28 +2,28 @@
   "name": "css3",
   "repo": "chameleonui/css3",
   "description": "Stylus CSS3 library for ChameleonUI",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "keywords": [],
   "dependencies": {
-    "chameleonui/utils": "*"
+    "chameleonui/utils": "1.1.0"
   },
   "development": {},
   "license": "MIT",
   "styles": [
-    "animation.styl",
-    "backface-visibility.styl",
-    "background-size.styl",
-    "border-image.styl",
-    "border-radius.styl",
-    "box-shadow.styl",
-    "box-sizing.styl",
-    "filter.styl",
-    "font-smoothing.styl",
-    "opacity.styl",
-    "perspective.styl",
-    "text-overflow.styl",
-    "transform.styl",
-    "transition.styl"
+    "stylus/animation.styl",
+    "stylus/backface-visibility.styl",
+    "stylus/background-size.styl",
+    "stylus/border-image.styl",
+    "stylus/border-radius.styl",
+    "stylus/box-shadow.styl",
+    "stylus/box-sizing.styl",
+    "stylus/filter.styl",
+    "stylus/font-smoothing.styl",
+    "stylus/opacity.styl",
+    "stylus/perspective.styl",
+    "stylus/text-overflow.styl",
+    "stylus/transform.styl",
+    "stylus/transition.styl"
   ],
   "remotes": []
 }
