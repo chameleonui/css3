@@ -1,78 +1,9 @@
 
-// main transform mixins
-
 transform()
-    vendors('transform', arguments, webkit moz ms o)
+    _vendors('transform', arguments, webkit moz ms o)
 
 transform-origin()
-    vendors('transform-origin', arguments, webkit moz ms o)
+    _vendors('transform-origin', arguments, webkit moz ms o)
 
 transform-style()
-    vendors('transform-style', arguments, webkit moz ms o)
-
-
-
-// specific submixins
-
-matrix()
-    unquote("matrix(" + arguments + ")")
-
-matrix3d()
-    unquote("matrix3d(" + arguments + ")")
-
-translate()
-    unquote("translate(" + arguments + ")")
-
-translate3d()
-    unquote("translate3d(" + arguments + ")")
-
-translateX()
-    unquote("translateX(" + arguments + ")")
-
-translateY()
-    unquote("translateY(" + arguments + ")")
-
-translateZ()
-    unquote("translateZ(" + arguments + ")")
-
-scale()
-    unquote("scale(" + arguments + ")")
-
-scale3d()
-    unquote("scale3d(" + arguments + ")")
-
-scaleX()
-    unquote("scaleX(" + arguments + ")")
-
-scaleY()
-    unquote("scaleY(" + arguments + ")")
-
-scaleZ()
-    unquote("scaleZ(" + arguments + ")")
-
-rotate()
-    unquote("rotate(" + arguments + ")")
-
-rotate3d()
-    unquote("rotate3d(" + arguments + ")")
-
-rotateX()
-    unquote("rotateX(" + arguments + ")")
-
-rotateY()
-    unquote("rotateY(" + arguments + ")")
-
-rotateZ()
-    unquote("rotateZ(" + arguments + ")")
-
-skew()
-    unquote("skew(" + arguments + ")")
-
-skewX()
-    unquote("skewX(" + arguments + ")")
-
-skewY()
-    unquote("skewY(" + arguments + ")")
-
-perspective()
-    unquote("perspective(" + arguments + ")")
+    _vendors('transform-style', arguments, webkit moz ms o)
